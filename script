@@ -1,0 +1,9 @@
+const botao = document.querySelector(".botao");
+const mensagem = document.querySelector(".mensagem");
+
+function mostrarMensagem() {
+    mensagem.textContent =
+        "🚜 A tecnologia ajuda os agricultores a monitorar plantações, controlar máquinas e aumentar a produtividade de forma mais eficiente!";
+}
+
+botao.addEventListener("click", mostrarMensagem);
